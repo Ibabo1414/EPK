@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rationale&family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FBEFFF;
+}
+
+
+/*============== Le titre de la page de connexion ==============*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 83vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header {
+    height: 70px;
+}
+
+#header-sroll {
+    /*position: fixed;*/
+    height: 202px;
+    /*background: #FBEFFF;*/
+    left: 0;
+    top: 0;
+    float: left;
+    width: 100%;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#header-sroll h1 {
+    color: #BB6BD9;
+    font-size: 86px;
+    font-family: 'Rationale', sans-serif;
+    text-align: center;
+    line-height: 130px;
+}
+
+
+/*==============  Tout le texte la page connexion ==============*/
+
+
+/* image de connexion */
+
+img {
+    width: 900px;
+    height: 600px;
+    padding-top: 70px;
+    /*margin-bottom: 10px;*/
+}
+
+
+/* Tout le contenu textuelle */
+
+.textes {
+    text-align: center;
+}
+
+.textes h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #BB6BD9;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.text-2 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 14, 01px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* les champs de saisie */
+
+input {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 50px;
+    text-align: center;
+    width: 800px;
+    height: 90px;
+    position: relative;
+    /*border: 1px solid #e6e6e6;*/
+    border-radius: 50px;
+    margin-bottom: 56px;
+}
+
+
+/* Bouton de connexion  */
+
+.bouton {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    outline: none;
+    padding: 10px 0;
+    margin-bottom: 47px;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #BB6BD9;
+    color: #fff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+    display: block;
+}
+
+.compte {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: -18px;
+}
+
+.compte p a {
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+}
+
+.compte p a span {
+    color: #BB6BD9;
+}
+
+.motpasse-oublie {
+    margin-bottom: 30px;
+}
