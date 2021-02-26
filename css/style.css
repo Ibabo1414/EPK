@@ -15,7 +15,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 83vh;
+    height: 75vh;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -23,13 +23,10 @@ main {
 
 /*==============  PAGE DE CONNEXION ==============*/
 
-.header {
-    height: 70px;
-}
-
 #header-sroll {
     /*position: fixed;*/
-    height: 202px;
+    height: 100px;
+    /*background: #FBEFFF;*/
     left: 0;
     top: 0;
     float: left;
@@ -38,19 +35,21 @@ main {
 
 #header-sroll h1 {
     color: #BB6BD9;
-    font-size: 86px;
+    /*font-size: 22px;*/
+    font-size: 22px;
     font-family: 'Rationale', sans-serif;
     text-align: center;
-    line-height: 130px;
+    line-height: 30px;
 }
 
 
 /* image de connexion */
 
 img {
-    width: 900px;
-    height: 600px;
-    padding-top: 70px;
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 
@@ -63,18 +62,22 @@ img {
 .textes h2 {
     font-family: 'Roboto', sans-serif;
     color: #BB6BD9;
-    font-size: 50px;
-    margin-bottom: -10px;
+    font-size: 20px;
+    /*top: 330px;*/
+    margin-bottom: -1px;
 }
 
-.text-2 p {
+.textes p {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 38px;
+    color: #4F4B4B;
     line-height: 14, 01px;
-    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
 }
 
 
@@ -84,27 +87,29 @@ input {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     box-sizing: border-box;
-    border-radius: 50px;
-    font-size: 50px;
+    font-size: 12px;
     text-align: center;
-    width: 800px;
-    height: 90px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #333333;
     position: relative;
     border-radius: 50px;
-    margin-bottom: 56px;
+    margin-bottom: 18px;
 }
 
 
 /* Bouton de connexion  */
 
 .bouton {
-    width: 100%;
+    width: 240px;
+    height: 30px;
     font-family: 'Open Sans', sans-serif;
-    border: 0;
+    border: 1px;
     outline: none;
-    padding: 10px 0;
-    margin-bottom: 47px;
-    font-size: 70px;
+    padding: 9px 0;
+    margin-top: 2px;
+    margin-bottom: 35px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -122,11 +127,11 @@ input {
 .compte {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: -18px;
+    margin-top: -40px;
 }
 
 .compte p a {
-    font-size: 35px;
+    font-size: 12px;
     text-decoration: none;
     color: #000;
 }
@@ -135,107 +140,19 @@ input {
     color: #BB6BD9;
 }
 
-.motpasse-oublie {
-    margin-bottom: 30px;
+
+/* Les medias query */
+
+@media screen and (min-width: 760px) and (max-width: 1206px) {
+    #header-sroll h1 {
+        font-size: 30px;
+        line-height: 90px;
+    }
 }
 
-
-/*==============  PAGE : NOS SERVICES ==============*/
-
-.header2 {
-    height: 70px;
-}
-
-#header-sroll2 {
-    height: 202px;
-    background: #9B51E0;
-    left: 0;
-    top: 0;
-    float: left;
-    width: 100%;
-}
-
-#header-sroll2 h1 {
-    color: #ffffff;
-    font-size: 86px;
-    font-family: 'Rationale', sans-serif;
-    text-align: center;
-    line-height: 90px;
-}
-
-
-/*** Tous les services ***/
-
-.card {
-    /*background: #FBEFFF;*/
-    /*border-radius: 2px;*/
-    display: inline-block;
-    height: 100px;
-    margin: 1rem;
-    position: relative;
-    width: 250px;
-}
-
-.card>img {
-    width: 250px;
-    height: 250px;
-    padding-top: 1px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-1 {
-    background: #FBEFFF;
-}
-
-.card-2 {
-    background: #FBEFFF;
-}
-
-.card-3 {
-    background: #FBEFFF;
-}
-
-
-/* Bouton des services  */
-
-.bouton2 {
-    width: 250px;
-    font-family: 'Open Sans', sans-serif;
-    border: 1px solid #1E950A;
-    border-radius: 40px;
-    outline: none;
-    padding: 11px 0;
-    margin-top: 20px;
-    margin-bottom: 47px;
-    font-size: 21px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background: #1E950A;
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.5s ease;
-    -webkit-appearance: none;
-    display: block;
-}
-
-.bouton2 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-
-/*==============  PAGE : Choisissez votre médecin ==============*/
-
-.checked {
-    color: orange;
-}
-
-hr {
-    width: 68%;
-    color: #9B51E0;
-    border: 1px solid;
-    margin-top: 10%;
-    margin-bottom: 6%;
+@media screen and (min-width: 321px) and (max-width: 759px) {
+    #header-sroll h1 {
+        font-size: 30px;
+        line-height: 90px;
+    }
 }
