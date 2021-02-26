@@ -157,8 +157,10 @@ input {
     }
 }
 
-@media screen and (min-width: 291px) and (max-width: 642px) {
+
+/*
+@media screen and (min-width: 288px) and (max-width: 642px) {
     #header-sroll h1 {
         line-height: 100px;
     }
-}
+}*/
