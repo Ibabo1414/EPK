@@ -183,7 +183,7 @@ input {
 /*** Tous les services ***/
 
 .card {
-    background: #fff;
+    background: #FBEFFF;
     border-radius: 2px;
     display: inline-block;
     height: 100px;
@@ -201,6 +201,8 @@ input {
     /*margin-bottom: 10px;*/
 }
 
+
+/*
 .card-1 {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.30), 0 2px 2px rgba(0, 0, 0, 0.22);
 }
@@ -212,6 +214,7 @@ input {
 .card-3 {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.22);
 }
+*/
 
 
 /* Bouton des services  */
@@ -241,4 +244,19 @@ input {
 .bouton2 a {
     text-decoration: none;
     color: #fff;
+}
+
+
+/*==============  PAGE : Choisissez votre médecin ==============*/
+
+.checked {
+    color: orange;
+}
+
+hr {
+    width: 68%;
+    color: #9B51E0;
+    border: 1px solid;
+    margin-top: 10%;
+    margin-bottom: 6%;
 }
