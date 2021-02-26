@@ -159,6 +159,6 @@ input {
 
 @media screen and (min-width: 291px) and (max-width: 642px) {
     #header-sroll h1 {
-        line-height: 90px;
+        line-height: 100px;
     }
 }
