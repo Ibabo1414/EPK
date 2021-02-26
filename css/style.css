@@ -119,8 +119,8 @@ input {
     background: #BB6BD9;
     text-decoration: none;
     color: #fff;
-    transition: all 0.5s ease;
-    -webkit-appearance: none;
+    /* transition: all 0.5s ease;
+    -webkit-appearance: none;*/
     display: block;
 }
 
@@ -164,11 +164,11 @@ input {
     top: 0;
     float: left;
     width: 100%;
-    -ms-transition: all 0.3s ease-out;
+    /* -ms-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;*/
 }
 
 #header-sroll2 h1 {
@@ -220,7 +220,7 @@ input {
 /* Bouton des services  */
 
 .bouton2 {
-    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.3), 0 5px 5px rgba(255, 255, 255, 0.22);
+    /*box-shadow: 0 5px 5px rgba(255, 255, 255, 0.3), 0 5px 5px rgba(255, 255, 255, 0.22);*/
     width: 250px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid #1E950A;
