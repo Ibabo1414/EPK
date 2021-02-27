@@ -39,11 +39,11 @@ main section {
 }*/
 
 
-/*==============  PAGE DE CONNEXION ==============*/
+/*==============  PAGE : 1 D'ACCUEIL ==============*/
 
 #header-sroll {
     /*position: fixed;*/
-    height: 100px;
+    height: 70px;
     /*background: #FBEFFF;*/
     left: 0;
     top: 0;
@@ -104,6 +104,41 @@ img {
 }
 
 
+/* les boutons pour la page connexion */
+
+.bouton1,
+.bouton1-2 {
+    width: 260px;
+    height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    padding: 9px 0;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background: #6F21B8;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.bouton1 a,
+.bouton1-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bouton1-2 {
+    background: #2CED34;
+}
+
+
 /* les champs de saisie */
 
 input {
@@ -154,7 +189,7 @@ input {
 }
 
 .compte p a {
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: none;
     color: #000;
 }
