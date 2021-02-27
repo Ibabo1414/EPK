@@ -80,6 +80,11 @@ img {
     text-align: center;
 }
 
+.text-2 {
+    text-align: center;
+    color: #4F4B4B;
+}
+
 
 /* les champs de saisie */
 
@@ -173,7 +178,6 @@ input {
 /*** Tous les services ***/
 
 .card {
-    background: #fff;
     border-radius: 2px;
     display: inline-block;
     width: 91px;
@@ -217,6 +221,26 @@ input {
 .bouton2 a {
     text-decoration: none;
     color: #fff;
+}
+
+
+/*==============  PAGE 3 : Choisir son médecin ==============*/
+
+img.image-service {
+    width: 60px;
+    height: 70px;
+}
+
+.card>p {
+    font-size: 9px;
+}
+
+.card>span {
+    font-size: 7px;
+}
+
+.checked {
+    color: orange;
 }
 
 
