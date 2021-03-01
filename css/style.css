@@ -155,6 +155,28 @@ input {
     margin-bottom: 18px;
 }
 
+.input2 {
+    font-family: 'Roboto', sans-serif;
+    background: #C4C4C4;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    width: 171px;
+    height: 36px;
+    color: #000000;
+    border: 1px solid #C4C4C4;
+    /*position: relative;*/
+    border-radius: 1px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+
+
+/*
+.input2[placeholder="Écrivez l’heure ici"] {
+    color: #FFF;
+}*/
+
 
 /* Bouton de connexion  */
 
