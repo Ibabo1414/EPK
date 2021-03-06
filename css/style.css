@@ -9,7 +9,7 @@
 /*==============  LE corps de la page : body ==============*/
 
 body {
-    background-image: url(../images/epokrate-test-img.jpg);
+    background-image: url(../images/BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -76,7 +76,7 @@ main .header {
 /* Affichage du contenu sur PC */
 
 body main>div.accueil {
-    opacity: 0.9;
+    opacity: 0.7;
     display: block;
     max-width: 160px;
     max-height: 80em;

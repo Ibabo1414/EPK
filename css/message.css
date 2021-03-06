@@ -4,7 +4,7 @@
     /* Affichage  de l'arrière plan du contenu PC */
     @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@700&display=swap');
     body {
-        background-image: url(../images/epokrate-test-img.jpg);
+        background-image: url(../images/BG.png);
         background-size: cover;
         display: flex;
         justify-content: center;
