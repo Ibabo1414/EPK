@@ -4,7 +4,7 @@
     /* Affichage  de l'arrière plan du contenu PC */
     @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@700&display=swap');
     body {
-        background-image: url(../images/img-connexion.jpg);
+        background-image: url(../images/Arrière_plan1.png);
         background-size: cover;
         display: flex;
         justify-content: center;
