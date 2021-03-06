@@ -9,13 +9,13 @@
 /*==============  LE corps de la page : body ==============*/
 
 body {
-    background-image: url(../images/Arrière_plan1.png);
+    background-image: url(../images/img-connexion.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     justify-content: center;
     align-items: center;
-    height: 94vh;
+    height: 98vh;
     margin: 0 auto;
 }
 
