@@ -1,0 +1,60 @@
+/* POUR L'AFFICHAGE SUR ORDINATEUR (DESKTOP) */
+
+@media screen and (min-width: 768px) {
+    /* Affichage  de l'arrière plan du contenu PC */
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@700&display=swap');
+    body {
+        background-image: url(../images/Arrière-plan1.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 60%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    /* Taille et positionnement du LOGO E-POKRATE */
+    .title-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-icon img {
+        width: 170px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Affichage du contenu sur PC */
+    body>div.surPC {
+        font-family: 'Playfair Display', serif;
+        display: block;
+        max-width: 300px;
+        padding: 60px;
+        margin: 0 auto;
+        font-size: 1em;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        color: rgb(102, 96, 96);
+        box-shadow: 0 12px 36px 16px rgba(0, 0, 0, 0.24);
+    }
+    /* Annulation du contenu mobile sur pc */
+    main,
+    .header,
+    .compte {
+        display: none;
+    }
+    /*.test-invisible {
+        display: none;
+    }*/
+}
+
+@media screen and (max-width: 767px) {
+    /* Annulation du contenu PC sur mobile */
+    body>div.surPC {
+        display: none;
+    }
+}

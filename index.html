@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>E-POKRATE</title>
+    <title>e-POKRATE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!---<link rel="stylesheet" href="css/style.css">--->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/message.css">
     <!----------------------- favicon ------------------------------->
     <link rel="manifest" href="/manifest.json">
 
@@ -23,29 +23,56 @@
 </head>
 
 <body>
-    <!--## Titre de la page connexion ##-->
-    <div class="header">
-        <div id="header-sroll">
-            <h1>Bienvenue sur E-pokrate</h1>
+    <!----- Début de l'affichage sur PC ----->
+    <div class="surPC">
+        <!--* LOGO E-POKRATE sur PC *-->
+        <div class="title-icon">
+            <img src="images/Logo page de Bienvenue.png">
         </div>
+        <!--* Messages d'information sur PC *-->
+        <h3>
+            Cher utilisateur, nous vous informons que la version pilote de ce projet n'est disponible que sur mobile.
+        </h3>
+        <p>
+            Nous vous remercions pour l'intérêt que vous portez à notre plateforme.
+        </p>
     </div>
+    <!-------- Fin de l'affichage sur PC  -------->
+
+
+    <!-------- Début de l'affichage sur mobile -------->
     <main>
-        <img src="images/img-connexion.jpg" alt="image de connexion" width="300" height="200">
-        <div class="textes">
-            <h2>Connectez-vous</h2>
-            <p>Connectez-vous à l’aide de vos identifiants et mot de passe pour commencer à utiliser l’application</p>
+
+        <!--## Titre de la page ##-->
+        <div class="header">
+            <div id="header-sroll">
+                <h1>Bienvenue sur e-POKRATE</h1>
+            </div>
         </div>
-        <div id="les-boutons">
-            <button type="submit" class="bouton1 bouton-block"><a href="formulaire-patient.html">PARTICULIERS</a></button>
-            <button type="submit" class="bouton1-2 bouton-block"><a href="connexion.html">MEDECINS</a></button>
+        <!----- Tout le contenu du main ----->
+        <div class="accueil">
+            <!--* LOGO E-POKRATE sur PC *-->
+            <div class="accueil_Logo">
+                <img src="images/Logo page de Bienvenue.png">
+            </div>
+            <!--* Messages d'accueil *-->
+            <h3>
+                Consultez un médecin en vidéo
+            </h3>
+            <!--* Boutons d'inscription *-->
+            <div id="les-boutons">
+                <button type="submit" class="bouton1 bouton-block"><a href="#">INSCRIPTION/CONNEXION</a></button>
+                <button type="submit" class="bouton1-2 bouton-block"><a href="#">SE CONNECTER</a></button>
+            </div>
+
         </div>
-        <br>
-        <br>
-        <div class="compte ">
-            <p><a href="#">Vous n’avez pas encore de compte ? <span>&vert; Enregistrez-vous</span></a></p>
-        </div>
-        <!--## Fin du main ##-->
     </main>
+    <!--* Les conditions d'inscription *-->
+    <div class="compte ">
+        <p>En validant votre inscription, vous acceptez nos
+            <a href="#"><span>conditions générale de vente</span></a>
+        </p>
+    </div>
     <!--File main.js -->
     <script src="js/main.js"></script>
 </body>
