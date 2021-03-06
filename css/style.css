@@ -9,13 +9,13 @@
 /*==============  LE corps de la page : body ==============*/
 
 body {
-    background-image: url(https://www.alj.com/app/uploads/2020/09/health-technology-752x357.png);
+    background-image: url(../images/Arrière_plan1.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     justify-content: center;
     align-items: center;
-    height: 96vh;
+    height: 94vh;
     margin: 0 auto;
 }
 
