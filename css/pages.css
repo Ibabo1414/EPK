@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rationale&family=Roboto:wght@300&display=swap');
+
+/*==============  LE corps de la page : body ==============*/
+
+body {
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*==============  PAGE 1 : accueil ==============*/
+
+main .header {
+    margin-top: 1em;
+    height: 70px;
+    margin-bottom: 1em;
+}
+
+#header-sroll {
+    height: 43px;
+    background: #2ec1e6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    left: 0;
+    top: 0;
+    /*float: left;*/
+    width: 47vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#header-sroll h1 {
+    font-family: 'Rationale', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+}
+
+
+/*============== Le titre de la page de connexion ==============*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 79vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*
+main section {
+    /*margin-bottom: -63px;*/
+
+
+/*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+
+
+/*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+
+/*==============  PAGE : 1 D'ACCUEIL ==============*
+
+#header-sroll {
+    /*position: fixed;*
+    height: 70px;
+    /*background: #FBEFFF;*
+    left: 0;
+    top: 0;
+    float: left;
+    width: 100%;
+}
+
+#header-sroll h1 {
+    color: #BB6BD9;
+    /*font-size: 22px;*
+    font-size: 22px;
+    font-family: 'Rationale', sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* image de connexion */
+
+img.imgPremière {
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+    opacity: 0.5;
+    box-shadow: 0px 2px 2px rgba(63, 61, 61, 0.05), 0px 6px 6px rgba(63, 61, 61, 0.05), 0px 8px 8px rgba(63, 61, 61, 0.05), 0px 10px 15px rgba(63, 61, 61, 0.05), 0px 30px 30px rgba(63, 61, 61, 0.05), 0px 70px 60px rgba(63, 61, 61, 0.05);
+    /*margin-bottom: 10px;*/
+}
+
+
+/* Tout le contenu textuelle */
+
+.textes {
+    text-align: center;
+}
+
+.textes h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #BB6BD9;
+    font-size: 20px;
+    /*top: 330px;*/
+    margin-bottom: -1px;
+}
+
+.textes p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 14, 01px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bolder;
+    color: #000000;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.text-2 {
+    text-align: center;
+    color: #000000;
+    line-height: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* les boutons pour la page connexion *
+
+.bouton1,
+.bouton1-2 {
+    width: 260px;
+    height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    padding: 9px 0;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background: #6F21B8;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.bouton1 a,
+.bouton1-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bouton1-2 {
+    background: #2CED34;
+}
+
+
+/* les champs de saisie *
+
+input {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #333333;
+    position: relative;
+    border-radius: 50px;
+    margin-bottom: 18px;
+}
+
+.input2 {
+    font-family: 'Roboto', sans-serif;
+    background: #C4C4C4;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    width: 171px;
+    height: 36px;
+    color: #000000;
+    border: 1px solid #C4C4C4;
+    /*position: relative;*
+
+border-radius: 1px;
+margin-bottom: 18px;
+margin-left: 10px;
+
+}
+
+/*
+.input2[placeholder="Écrivez l’heure ici"] {
+    color: #FFF;
+}*/
+
+
+/* Bouton de connexion  *
+
+.bouton {
+    width: 240px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px;
+    outline: none;
+    padding: 9px 0;
+    margin-top: 2px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #BB6BD9;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.bouton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.compte {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.compte p a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #000;
+}
+
+.compte p a span {
+    color: #BB6BD9;
+}
+
+
+/*==============  PAGE 2 : NOS SERVICES ==============*/
+
+
+/*
+.header2 {
+    height: 70px;
+}
+
+#header-sroll2 {
+    height: 70px;
+    background: #9B51E0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#header-sroll2 h1 {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Rationale', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+
+*/
+
+
+/*** Tous les services ***/
+
+.card {
+    border-radius: 2px;
+    display: inline-block;
+    width: 91px;
+    height: 100px;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.card>img {
+    width: 71px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid #888282;
+    opacity: 0.7;
+}
+
+
+/* Bouton des services  */
+
+.bouton2 {
+    box-shadow: 0 5px 5px rgb(255 255 255 / 30%), 0 5px 5px rgb(255 255 255 / 22%);
+    width: 83px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 7px;
+    outline: none;
+    padding: 2px 0;
+    margin-top: 10px;
+    margin-bottom: 47px;
+    margin-left: -4px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 900;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.1em;
+    background: #2ec1e6;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 2px 2px rgba(63, 61, 61, 0.05), 0px 6px 6px rgba(63, 61, 61, 0.05), 0px 8px 8px rgba(63, 61, 61, 0.05), 0px 10px 15px rgba(63, 61, 61, 0.05), 0px 30px 30px rgba(63, 61, 61, 0.05), 0px 70px 60px rgba(63, 61, 61, 0.05);
+}
+
+.bouton2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*==============  PAGE 3 : Choisir son médecin ==============*
+
+#tous-les-cards1 {
+    margin-bottom: 15px;
+}
+
+img.image-service {
+    width: 91px;
+    height: 93px;
+    margin-bottom: -2px;
+    margin-top: 1px;
+    line-height: 90px;
+}
+
+.card>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    line-height: 0.7em;
+    font-style: normal;
+    font-weight: normal;
+    color: #335076;
+}
+
+.card>p.medg {
+    /*font-weight: bold;*
+    color: #7710A8;
+}
+
+.card>h2 {
+    font-family: 'Rationale', sans-serif;
+    letter-spacing: 1px;
+    line-height: 0.7em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+}
+
+.card>h3 {
+    font-size: 9px;
+    line-height: 0.3em;
+    margin-bottom: 2px;
+}
+
+.card>.etoiles {
+    margin-bottom: -3px;
+}
+
+.card>.etoiles span {
+    font-size: 9px;
+}
+
+.checked {
+    color: orange;
+}
+
+.card>p.prix {
+    /*font-weight: bold;*
+    color: #7710A8;
+    font-weight: bolder;
+    font-size: 11px;
+    margin-bottom: -1px;
+}
+
+hr {
+    width: 252px;
+    height: 0px;
+    color: #9B51E0;
+    mix-blend-mode: normal;
+    border: 1px solid #9B51E0;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+/* Les medias query 
+
+@media screen and (min-width: 760px) and (max-width: 1206px) {
+    #header-sroll h1 {
+        font-size: 30px;
+        line-height: 90px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 759px) {
+    #header-sroll h1 {
+        font-size: 30px;
+        line-height: 90px;
+    }
+}
+*/
+
+@media screen and (min-width: 150px) and (max-width: 348px) {
+    .card {
+        margin: 0.1rem;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    img.imgPremière {
+        margin-top: -40px;
+        margin-bottom: 18px;
+    }
+    .text-2 {
+        margin-top: 10px;
+    }
+    .card>img {
+        margin-top: 10px;
+    }
+}
