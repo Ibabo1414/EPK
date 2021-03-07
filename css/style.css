@@ -144,21 +144,21 @@ div.accueil>h3 {
 
 .compte p {
     font-size: 13px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 900;
     margin-left: 39px;
     margin-right: 38px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .compte p a {
     font-size: 13px;
-    color: #2ec1e6;
+    color: #ff0000;
     font-weight: 900;
 }
 
 .compte p a span {
-    color: #2ec1e6;
+    color: #ff0000;
     font-weight: 900;
 }
 
