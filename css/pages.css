@@ -10,7 +10,7 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ main .header {
 
 #header-sroll {
     height: 43px;
-    background: #2ec1e6;
+    background: #44e5e6;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -150,7 +150,7 @@ img.imgPremière {
     font-weight: 900;
     /*text-transform: uppercase;*/
     letter-spacing: 0.1em;
-    background: #2ec1e6;
+    background: #44e5e6;
     text-decoration: none;
     color: #fff;
     border: 2px solid #ffffff;
@@ -162,13 +162,167 @@ img.imgPremière {
     color: #fff;
 }
 
+
+/*==============  PAGE 3 : mes ordonnances ==============*/
+
+.imagesordo>img {
+    height: 72px;
+    width: 72px;
+    background: #44e5e6;
+    border-radius: 10px;
+    margin-left: -6em;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.imagesordo {
+    height: 113px;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #44e5e6;
+}
+
+div.text-ordo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1em;
+}
+
+
+/* Le champ de saisie pour rechercher un médecin */
+
+.laRecherche {
+    width: 80%;
+    margin-left: 81%;
+    transform: translate(-50%, -50%);
+    margin-top: 0.70em;
+    margin-bottom: 0.70em;
+}
+
+.recherche {
+    width: 100%;
+    display: flex;
+}
+
+.motRecherche {
+    width: 100%;
+    border: 3px solid #44e5e6;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+    color: #9DBFAF;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.motRecherche:focus {
+    color: #00B4CC;
+}
+
+.BoutonRecherche {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #44e5e6;
+    background: #44e5e6;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* tout ce qui est à gauche (mes ordonnances) */
+
+.text-ordo>h2 {
+    font-family: 'Rationale', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: -5px;
+    margin-left: 4px;
+}
+
+.text-ordo>h2.solena {
+    margin-left: -2em;
+}
+
+.text-ordo>h2.igor {
+    margin-left: -1em;
+}
+
+.text-ordo>h2.aminata {
+    margin-left: -1em;
+}
+
+.text-ordo>h3 {
+    font-size: 12px;
+    line-height: 0.1em;
+    margin-left: 8px;
+    font-weight: 900;
+    color: #b1afaf;
+}
+
+.text-ordo>.etoiles {
+    /*padding-left: 2em;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-ordo>.etoiles span {
+    font-size: 12px;
+}
+
+.checked {
+    color: orange;
+}
+
+.text-ordo>p.prix {
+    color: #7710A8;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-bottom: -6px;
+    margin-top: -3px;
+    margin-left: -3em;
+}
+
+img.CNAMGS {
+    width: 80px;
+    height: 20px;
+    margin-right: -6em;
+    margin-bottom: 6px;
+}
+
+span.fa:nth-child(5) {
+    margin-right: 5em;
+    color: #b1afaf;
+}
+
 @media screen and (min-width: 150px) and (max-width: 348px) {
+    body {
+        height: 100vh;
+    }
+    main {
+        height: 90vh;
+    }
     .card {
         margin: 0.1rem;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
+    .header {
+        margin-bottom: 4em;
+    }
     img.imgPremière {
         margin-top: -40px;
         margin-bottom: 18px;
@@ -178,5 +332,11 @@ img.imgPremière {
     }
     .card>img {
         margin-top: 10px;
+    }
+    .laRecherche {
+        width: 70%;
+        margin-left: 70%;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }

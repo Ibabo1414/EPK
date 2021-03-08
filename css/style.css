@@ -112,7 +112,7 @@ div.accueil>h3 {
     text-decoration: none;
     color: #fff;
     display: block;
-    background: #2ec1e6;
+    background: #44e5e6;
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid #ffffff;
@@ -152,7 +152,7 @@ div.accueil>h3 {
 }
 
 .compte p a {
-    font-size: 13px;
+    font-size: 12px;
     color: #ff0000;
     font-weight: 900;
 }
@@ -168,12 +168,27 @@ div.accueil>h3 {
         font-size: 12px;
         width: 38vh;
     }
-    body main>div.accueil {
-        max-width: 130px;
-        max-height: 80em;
-    }
     .bouton1,
     .bouton1-2 {
         margin-left: -30px;
+    }
+}
+
+@media screen and (min-width: 150px) and (max-width: 320px) {
+    body main>div.accueil {
+        max-width: 130px;
+        max-height: 18em;
+        margin-top: -1.50em;
+    }
+    .compte p a {
+        font-size: 9px;
+        margin-top: -3px;
+    }
+    .bouton1,
+    .bouton1-2 {
+        margin-top: -1em;
+    }
+    .bouton1 {
+        margin-top: 4px;
     }
 }
