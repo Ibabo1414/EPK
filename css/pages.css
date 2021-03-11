@@ -350,6 +350,7 @@
                     line-height: 6px;
                     margin-bottom: 10px;
                     font-weight: 900;
+                    font-size: 14px;
                 }
                 
                 #header-sroll2 h1.paiement-titre {
@@ -436,7 +437,7 @@
                 }
                 
                 .textpaye p.montant-a-payer4 {
-                    font-size: 16px;
+                    font-size: 15px;
                     margin-top: 25px;
                     line-height: 10px;
                     color: #000000;
@@ -445,8 +446,15 @@
                 
                 .textpaye span.payer3 {
                     margin-left: 1.80em;
+                    height: 2;
                     color: #dc0000;
                     font-weight: 900;
+                    /* height: 90px; */
+                    border-radius: 12px;
+                    padding-top: 60px;
+                    padding-right: 10px;
+                    padding-left: 7px;
+                    background: #fff;
                 }
                 
                 .button3 {
