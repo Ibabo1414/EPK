@@ -18,7 +18,8 @@
                     margin-bottom: 1em;
                 }
                 
-                #header-sroll {
+                #header-sroll,
+                #header-srollHeure {
                     height: 43px;
                     background: #44e5e6;
                     font-style: normal;
@@ -31,7 +32,8 @@
                     border-radius: 8px;
                 }
                 
-                #header-sroll h1 {
+                #header-sroll h1,
+                #header-srollHeure h1 {
                     font-family: 'Rationale', sans-serif;
                     color: #ffffff;
                     font-style: normal;
@@ -299,7 +301,7 @@
                 
                 .bouton3-2 a {
                     font-family: 'Rationale', sans-serif;
-                    font-size: 12px;
+                    font-size: 16px;
                     text-decoration: none;
                     margin-top: -2em;
                     color: #fff;
@@ -485,6 +487,303 @@
                     margin-left: -2em;
                     float: left;
                 }
+                /*==============  PAGE 10 : Choisissez le jour et l’heure de la livraison ==============*/
+                /*=============*/
+                
+                #header-srollHeure {
+                    background: #a478ce;
+                }
+                
+                .wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    min-height: 1%;
+                    margin-bottom: 20px;
+                }
+                
+                button::-moz-focus-inner {
+                    border: 0;
+                    padding: 0;
+                }
+                
+                #calendari {
+                    margin: 20px 0;
+                    position: relative;
+                    overflow: hidden;
+                    height: 310px;
+                    width: 350px;
+                    font-size: 14px;
+                    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    table-layout: fixed;
+                    width: 350px;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+                    background-color: #fff;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transform: translateX(0);
+                    transition: all 0.3s ease;
+                }
+                
+                table.actiu {
+                    transform: translateX(0px)top;
+                }
+                
+                table.inactiu {
+                    transition: all 0.3s 0.01s ease;
+                }
+                
+                table.amagat-esquerra {
+                    transform: translateX(-299px);
+                }
+                
+                table.amagat-dreta {
+                    transform: translateX(300px);
+                }
+                
+                td,
+                th {
+                    text-align: center;
+                    background-color: #fff;
+                }
+                
+                th {
+                    padding: 10px;
+                }
+                
+                tr:first-child th {
+                    float: left;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border-left: none;
+                    border-top: none;
+                }
+                
+                td:last-child,
+                th:last-child {
+                    border-right: none;
+                }
+                
+                th {
+                    border-top: 1px solid rgba(0, 0, 0, 0.1);
+                    border-right: 1px solid rgba(0, 0, 0, 0.1);
+                    background-color: #ffffff;
+                    color: #000000;
+                    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+                    font-weight: normal;
+                }
+                
+                th .any {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    text-shadow: none;
+                    color: #000000;
+                    margin-left: 5px;
+                }
+                
+                tr:nth-child(2) th {
+                    padding: 5px;
+                }
+                
+                td {
+                    padding: 0;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+                }
+                
+                td>span {
+                    color: #000000;
+                    padding: 10px;
+                    display: block;
+                    border: 1px solid rgb(0 0 0 / 5%);
+                    transition: border 0.3s ease;
+                }
+                
+                td:nth-child(even)>span {
+                    background-color: rgba(0, 0, 0, 0.02);
+                }
+                
+                td:last-child>span,
+                td:nth-child(6)>span {
+                    color: #000000;
+                }
+                
+                td.avui>span {
+                    font-weight: bold;
+                    background-color: #3547E9;
+                    color: #fff;
+                    border: 2px solid rgba(0, 0, 0, 0.1);
+                }
+                
+                td.fora>span {
+                    opacity: 0.2;
+                }
+                
+                td>span:hover {
+                    background: #a57cb6;
+                    color: #fff;
+                }
+                
+                .boto-next,
+                .boto-prev {
+                    background: #ffffff;
+                    font-family: inherit;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-shadow: inherit;
+                    padding: 2px 10px 5px 10px;
+                    line-height: 1px;
+                    height: 30px;
+                    width: 30px;
+                    vertical-align: middle;
+                    border-radius: 100%;
+                    position: absolute;
+                    top: 15px;
+                }
+                
+                .boto-next {
+                    right: 10px;
+                    padding-left: 13px;
+                }
+                
+                .boto-prev {
+                    left: 270px;
+                    padding-right: 19px;
+                }
+                
+                .boto-next:hover,
+                .boto-prev:hover {
+                    background: rgba(0, 0, 0, 0.2);
+                }
+                
+                button:hover {
+                    cursor: pointer;
+                }
+                
+                button:focus {
+                    outline: none;
+                }
+                
+                footer {
+                    text-align: center;
+                    color: #ddd;
+                    font-weight: normal;
+                    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+                    font-size: 0.8em;
+                    padding: 20px;
+                }
+                
+                footer a,
+                footer a:link {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                
+                .consulHeure {
+                    display: flex;
+                }
+                
+                .input2 {
+                    font-family: 'Rationale', sans-serif;
+                    background: #C4C4C4;
+                    box-sizing: border-box;
+                    font-size: 12px;
+                    text-align: center;
+                    width: 171px;
+                    height: 36px;
+                    color: #000000;
+                    border: 1px solid #C4C4C4;
+                    border-radius: 1px;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                }
+                
+                .button2 {
+                    width: 150px;
+                    height: 50px;
+                    font-family: 'Rationale', sans-serif;
+                    outline: none;
+                    margin-bottom: 20px;
+                    padding-top: 7px;
+                    font-weight: 600;
+                    letter-spacing: 0.1em;
+                    display: block;
+                    background: #2ec1e6;
+                    box-sizing: border-box;
+                    border-radius: 7px;
+                    border: 2px solid #2ec1e6;
+                    box-shadow: 0px 2px 2px rgb(63 61 61 / 5%), 0px 6px 6px rgb(63 61 61 / 5%), 0px 8px 8px rgb(63 61 61 / 5%), 0px 10px 15px rgb(63 61 61 / 5%), 0px 30px 30px rgb(63 61 61 / 5%), 0px 70px 60px rgb(63 61 61 / 5%);
+                }
+                
+                .button2 a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 25px;
+                }
+                
+                .bouton3-2 {
+                    width: 171px;
+                    height: 36px;
+                    font-family: 'Rationale', sans-serif;
+                    outline: none;
+                    padding: 9px 0;
+                    margin-top: 2px;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    text-decoration: none;
+                    color: #fff;
+                    display: block;
+                    background: #F10000;
+                    border: 1px solid #F10000;
+                    box-sizing: border-box;
+                    border-radius: 1px;
+                }
+                
+                .bouton3-2 a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                
+                main>.paragraphe_ordo {
+                    width: 310px;
+                    height: 40px;
+                    font-family: 'Rationale', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 13px;
+                    text-align: center;
+                    /* color: #4F4B4B; */
+                    font-weight: 900;
+                }
+                
+                .button1 {
+                    background-color: #C4C4C4;
+                }
+                
+                .button1 {
+                    border: none;
+                    color: #000000;
+                    padding: 8px 22px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 19px;
+                    font-weight: bolder;
+                    cursor: pointer;
+                    width: 102px;
+                    height: 36px;
+                }
                 
                 @media screen and (min-width: 150px) and (max-width: 348px) {
                     .card {
@@ -508,6 +807,9 @@
                     }
                     .lesmodesdepaiements {
                         margin-left: -0.1em;
+                    }
+                    #calendari {
+                        width: 300px;
                     }
                 }
                 
